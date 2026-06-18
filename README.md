@@ -2,7 +2,22 @@
 
 Extract structured data from [linkedin.com](https://linkedin.com) — linkedin.com jobs with state-keyed delta pricing — recurring runs only charge for NEW or CHANGED listings; already-seen jobs are skipped automatically. Built-in Telegram/Discord/Slack/WhatsApp/webhook notifications.
 
-**[LinkedIn Jobs Scraper on Apify →](https://apify.com/blackfalcondata/linkedin-jobs-scraper?fpr=1h3gvi)**
+**[LinkedIn Job Scraper on Apify →](https://apify.com/blackfalcondata/linkedin-job-scraper?fpr=1h3gvi)**
+
+
+## 🚀 How to use this actor
+
+> ### 💚 $5 free Apify credits — every month
+> No credit card required. No commitment. Cancel anytime.
+
+### 👉 [Sign up free on Apify →](https://console.apify.com/sign-up?fpr=1h3gvi)
+
+1. **Click sign up** — pick GitHub, Google, or email; takes ~30 seconds
+2. **Open this actor** — input is pre-filled with a working example
+3. **Click Start** — export results as JSON, CSV, or Excel
+
+Your **$5 monthly platform credit** is enough to run this actor right away — and again every month — scraping typically several hundred to several thousand results per run, depending on your input.
+
 
 
 ## 🚀 How to use this actor
@@ -22,6 +37,7 @@ Your **$5 monthly platform credit** is enough to run this actor right away — a
 ---
 
 ## Key features
+
 
 
 **Incremental mode** — Only get new or changed listings since your last run. Content hash per listing — no duplicates, no re-processing.
@@ -45,6 +61,7 @@ Your **$5 monthly platform credit** is enough to run this actor right away — a
 ## Use cases
 
 
+
 **Data pipeline automation**
 Integrate with your ETL pipeline to collect structured listings from linkedin.com on a schedule. Export to CSV, JSON, or directly to your database. Use compact mode to control output size.
 
@@ -56,6 +73,9 @@ Run daily or hourly in incremental mode to capture only new, updated, or expired
 
 **Compensation benchmarking**
 Aggregate salary ranges across roles, industries, and locations on linkedin.com to inform pricing decisions, hiring plans, or candidate negotiations.
+
+**Lead generation**
+Extract employer contact details alongside listings to build outreach lists for recruiters, staffing agencies, or B2B sales teams.
 
 **AI / LLM training data**
 Structured JSON per listing is ready for RAG pipelines, embeddings, and agent workflows. Compact mode trims tokens for LLM context windows.
@@ -255,6 +275,7 @@ No. Just sign up for Apify, paste your input, and click Start. No credit card re
 ---
 
 ## Related products by Black Falcon Data
+
 
 
 - [StepStone Scraper](https://apify.com/blackfalcondata/stepstone-scraper?fpr=1h3gvi) — Job listings from 18 European portals
